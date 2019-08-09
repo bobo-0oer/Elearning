@@ -1,0 +1,107 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#009999"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/searchET"
+            android:layout_width="320dp"
+            android:layout_height="35dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:drawableLeft="@drawable/icon_search"
+            android:background="@drawable/style_circle_input"
+            android:hint=" 请输入英文或汉字"
+            android:textSize="16dp"
+            />
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="10dp" />
+        <Button
+            android:id="@+id/searchBtn"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/icon_search_button"
+            />
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/myViewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/homeTV"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/menu_background"
+            android:drawablePadding="3dp"
+            android:drawableTop="@drawable/menu_home"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="主页"
+            android:textColor="@drawable/menu_text_style"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/bookTV"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/menu_background"
+            android:drawablePadding="3dp"
+            android:drawableTop="@drawable/menu_book"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="书籍"
+            android:textColor="@drawable/menu_text_style"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/activityTV"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/menu_background"
+            android:drawablePadding="3dp"
+            android:drawableTop="@drawable/menu_activity"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="动态"
+            android:textColor="@drawable/menu_text_style"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/myTV"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/menu_background"
+            android:drawablePadding="3dp"
+            android:drawableTop="@drawable/menu_my"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="我的"
+            android:textColor="@drawable/menu_text_style"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

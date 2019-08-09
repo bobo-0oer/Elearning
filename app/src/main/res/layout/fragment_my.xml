@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Home_Fragment.My.Fragment_My">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/background_my"
+        >
+
+        <ImageView
+            android:id="@+id/headIV"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@mipmap/icon_head"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            />
+
+        <TextView
+            android:id="@+id/myUsernameTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="昵称"
+            android:textSize="16dp"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:orientation="vertical"
+            >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#d7d7d7"
+                />
+            <Button
+                android:id="@+id/changePlanBtn"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/background_plan"
+                android:gravity="center"
+                android:text="修改学习计划"
+                android:textSize="20dp"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                >
+
+                <TextView
+                    android:id="@+id/WordBookTV"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@mipmap/icon_word_book"
+                    />
+
+                <View
+                    android:layout_width="40dp"
+                    android:layout_height="1dp" />
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="80dp"
+                    android:background="#e4e4e4" />
+                <View
+                    android:layout_width="40dp"
+                    android:layout_height="1dp" />
+
+                <TextView
+                    android:id="@+id/ProgressTV"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@mipmap/icon_plan"
+                    />
+
+                <View
+                    android:layout_width="40dp"
+                    android:layout_height="1dp" />
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="80dp"
+                    android:background="#e4e4e4" />
+                <View
+                    android:layout_width="40dp"
+                    android:layout_height="1dp" />
+
+                <TextView
+                    android:id="@+id/InformTV"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@mipmap/icon_inform"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                >
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="20dp"
+                    android:text="单词书"
+                    android:gravity="center"
+                    android:textSize="16dp"
+                    />
+
+                <View
+                    android:layout_width="20dp"
+                    android:layout_height="1dp" />
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="20dp"
+                    android:background="#e4e4e4" />
+                <View
+                    android:layout_width="20dp"
+                    android:layout_height="1dp" />
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="20dp"
+                    android:text="学习进度"
+                    android:gravity="center"
+                    android:textSize="16dp"
+                    />
+
+                <View
+                    android:layout_width="20dp"
+                    android:layout_height="1dp" />
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="20dp"
+                    android:background="#e4e4e4" />
+                <View
+                    android:layout_width="20dp"
+                    android:layout_height="1dp" />
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="20dp"
+                    android:text="通知"
+                    android:gravity="center"
+                    android:textSize="16dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="6dp"
+                android:background="#e4e4e4" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#f2f2f2" />
+
+            <LinearLayout
+                android:id="@+id/settingLL"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                >
+
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="1dp" />
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@mipmap/icon_setting"
+                    />
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:text="设置"
+                    android:textSize="16dp"
+                    />
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    />
+                <TextView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:gravity="center"
+                    android:background="@mipmap/icon_enter"
+                    />
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="1dp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#f2f2f2" />
+
+            <LinearLayout
+                android:id="@+id/helpLL"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                >
+
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="1dp" />
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@mipmap/icon_help"
+                    />
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:text="帮助"
+                    android:textSize="16dp"
+                    />
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    />
+                <TextView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:gravity="center"
+                    android:background="@mipmap/icon_enter"
+                    />
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="1dp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#f2f2f2" />
+
+            <LinearLayout
+                android:id="@+id/aboutLL"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                >
+
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="1dp" />
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@mipmap/icon_about"
+                    />
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:text="关于"
+                    android:textSize="16dp"
+                    />
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    />
+                <TextView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:gravity="center"
+                    android:background="@mipmap/icon_enter"
+                    />
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="1dp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#f2f2f2" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <Button
+                android:id="@+id/exitBtn"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:background="@drawable/style_button_exit"
+                android:text="退出登录"
+                android:textSize="18dp"
+                />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

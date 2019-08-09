@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Home_Fragment.Home.Unknown_Word.UnknownWordActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="#4f4f4f">
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="30dp"/>
+        <ImageView
+            android:id="@+id/exitUnknownWordIV"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@mipmap/icon_exit"
+            />
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="生词本"
+            android:textSize="20dp"
+            android:textColor="#f4f4f4"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="单词"
+            android:textSize="18dp"
+            android:gravity="center"
+            />
+        <TextView
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="翻译"
+            android:textSize="18dp"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#c9c9c9"/>
+
+    <ListView
+        android:id="@+id/UnknownWordLV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ListView>
+
+</LinearLayout>

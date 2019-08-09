@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.elearning">
+
+    <application
+        android:usesCleartextTraffic="true"
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:name=".Home_Fragment.Book.MyApplication">
+        <activity android:name=".Home_Fragment.My.SetButton.ProgressActivity"></activity>
+        <activity android:name=".Home_Fragment.My.ChangePlanActivity.ChangePlanActivity" />
+        <activity android:name=".Home_Fragment.My.SetButton.InformActivity" />
+        <activity android:name=".Home_Fragment.My.WordBookActivity.WordBookActivity" />
+        <activity android:name=".Home_Fragment.Activity.AddActivity" />
+        <activity android:name=".Home_Fragment.My.SetButton.HelpActivity" />
+        <activity android:name=".Home_Fragment.Home.Top_Search.TopSearchActivity" />
+        <activity android:name=".Home_Fragment.Home.Study_Calendar.CalendarActivity" />
+        <activity
+            android:name=".Home_Fragment.Home.Start_Study.CompleteStudyActivity"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".Home_Fragment.Home.Start_Study.StartStudyActivity"
+            android:launchMode="singleInstance" />
+        <activity android:name=".Home_Fragment.Home.Unknown_Word.UnknownWordActivity" />
+        <activity android:name=".Home_Fragment.Home.DailyArticleActivity" />
+        <activity
+            android:name=".LoginAndRegister.MainActivity"
+            android:launchMode="singleInstance">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginAndRegister.HomeActivity" />
+        <activity
+            android:name=".LoginAndRegister.RegisterActivity"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".LoginAndRegister.LoginActivity"
+            android:launchMode="singleInstance" />
+    </application>
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+</manifest>

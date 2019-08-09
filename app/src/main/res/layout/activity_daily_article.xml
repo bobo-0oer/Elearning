@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FAF9DE"
+    tools:context=".Home_Fragment.Home.DailyArticleActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/dailyArticleTitleLV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            >
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#f4f4f4"
+            />
+
+        <ImageView
+            android:id="@+id/dailyArticlePictureIv"
+            android:layout_width="360dp"
+            android:layout_height="250dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/dailyArticleContentLV"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            >
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+        <Button
+            android:id="@+id/completeBtn"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:text="完成阅读"
+            android:textSize="20dp"
+            android:background="@drawable/style_button_exit"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+    </LinearLayout>
+
+</ScrollView>

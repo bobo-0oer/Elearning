@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Home_Fragment.Home.Fragment_Home">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#e4e4e4"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#ffffff"
+        >
+        <Button
+            android:id="@+id/topBtn"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:text="每日一篇，精美文章。"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:background="@drawable/background_top"
+            />
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#e4e4e4"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/completeTimes"
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:text="--"
+            android:textSize="65dp"
+            android:textColor="#009999"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:layout_width="45dp"
+                android:layout_height="20dp"
+                android:gravity="center"
+                android:text="打卡次数"
+                android:textSize="10dp"
+                android:textColor="#009999"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+
+    <View
+        android:layout_width="300dp"
+        android:layout_height="2dp"
+        android:background="#f2f2f2"
+        android:layout_gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:id="@+id/newTV"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:text="--"
+                android:textColor="#009999"
+                android:textSize="32dp"
+                android:gravity="center"
+                />
+            <View
+                android:layout_width="10dp"
+                android:layout_height="1dp"
+                />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="80dp"
+                android:background="#e4e4e4"
+                />
+            <View
+                android:layout_width="10dp"
+                android:layout_height="1dp"
+                />
+
+            <TextView
+                android:id="@+id/todayTV"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:text="--"
+                android:textColor="#009999"
+                android:textSize="32dp"
+                android:gravity="center"
+                />
+            <View
+                android:layout_width="10dp"
+                android:layout_height="1dp"
+                />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="80dp"
+                android:background="#e4e4e4"
+                />
+            <View
+                android:layout_width="10dp"
+                android:layout_height="1dp"
+                />
+
+            <TextView
+                android:id="@+id/surplusTV"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:text="--"
+                android:textColor="#009999"
+                android:textSize="32dp"
+                android:gravity="center"
+                />
+            <View
+                android:layout_width="10dp"
+                android:layout_height="1dp"
+                />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="80dp"
+                android:background="#e4e4e4"
+                />
+            <View
+                android:layout_width="10dp"
+                android:layout_height="1dp"
+                />
+
+            <TextView
+                android:id="@+id/learnedTV"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:text="--"
+                android:textColor="#009999"
+                android:textSize="26dp"
+                android:gravity="center"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="18dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="18dp"
+                android:text="新词数"
+                android:textColor="#c9c9c9"
+                android:gravity="center"
+                />
+            <View
+                android:layout_width="10dp"
+                android:layout_height="1dp"
+                />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="80dp"
+                android:background="#e4e4e4"
+                />
+            <View
+                android:layout_width="10dp"
+                android:layout_height="1dp"
+                />
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="18dp"
+                android:text="今日单词"
+                android:textColor="#c9c9c9"
+                android:gravity="center"
+                />
+            <View
+                android:layout_width="10dp"
+                android:layout_height="1dp"
+                />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="80dp"
+                android:background="#e4e4e4"
+                />
+            <View
+                android:layout_width="10dp"
+                android:layout_height="1dp"
+                />
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="18dp"
+                android:text="剩余单词"
+                android:textColor="#c9c9c9"
+                android:gravity="center"
+                />
+            <View
+                android:layout_width="10dp"
+                android:layout_height="1dp"
+                />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="80dp"
+                android:background="#e4e4e4"
+                />
+            <View
+                android:layout_width="10dp"
+                android:layout_height="1dp"
+                />
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="18dp"
+                android:text="已学单词"
+                android:textColor="#c9c9c9"
+                android:gravity="center"
+                />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            />
+
+        <Button
+            android:id="@+id/startStudyBtn"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:text="开始学习"
+            android:textColor="#ffffff"
+            android:textSize="24dp"
+            android:background="@drawable/style_circle_button"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <View
+            android:layout_width="300dp"
+            android:layout_height="2dp"
+            android:background="#f2f2f2"
+            android:layout_gravity="center"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:id="@+id/myNotebookTV"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@mipmap/icon_notebook"
+                />
+
+            <View
+                android:layout_width="50dp"
+                android:layout_height="1dp"
+                />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="100dp"
+                android:background="#e4e4e4"
+                />
+            <View
+                android:layout_width="50dp"
+                android:layout_height="1dp"
+                />
+
+            <TextView
+                android:id="@+id/calendarTV"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@mipmap/icon_calendar"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:text="我的生词本"
+                android:textSize="16dp"
+                android:textColor="#bcbcbc"
+                android:gravity="center"
+                />
+            <View
+                android:layout_width="25dp"
+                android:layout_height="1dp"
+                />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="30dp"
+                android:background="#e4e4e4"
+                />
+            <View
+                android:layout_width="25dp"
+                android:layout_height="1dp"
+                />
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:text="打卡记录"
+                android:textSize="16dp"
+                android:textColor="#bcbcbc"
+                android:gravity="center"
+                />
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/MainLl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="610dp"
+        android:background="@drawable/background_welcome"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="The very beginning mind itself is the most accomplished mind of true enlightenment."
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="不忘初心，方得始终。"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:gravity="center"
+        />
+
+
+</LinearLayout>

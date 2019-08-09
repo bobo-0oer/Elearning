@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#f2f2f2"
+    tools:context=".Home_Fragment.Home.Study_Calendar.CalendarActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="#4f4f4f">
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="30dp"/>
+        <ImageView
+            android:id="@+id/exitCalendarIV"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@mipmap/icon_exit"
+            />
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="打卡日历"
+            android:textSize="20dp"
+            android:textColor="#f4f4f4"
+            />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        />
+
+    <CalendarView
+        android:layout_width="380dp"
+        android:layout_height="350dp"
+        android:background="@drawable/background_calendar"
+        >
+    </CalendarView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="打卡记录"
+        android:textSize="22dp"
+        />
+    <View
+        android:layout_width="200dp"
+        android:layout_height="1dp"
+        android:background="#c9c9c9"/>
+
+    <View
+        android:layout_width="200dp"
+        android:layout_height="5dp" />
+
+    <ListView
+        android:id="@+id/calendarLV"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        >
+    </ListView>
+
+</LinearLayout>
